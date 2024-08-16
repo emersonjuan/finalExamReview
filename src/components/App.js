@@ -21,10 +21,6 @@ const App = () => (
           <Route path="/courses/html" element={<HTML />} />
           <Route path="/courses/css" element={<CSS />} />
           <Route path="/courses/javascript" element={<JavaScript />} /> */}
-          <Route index element={<Navigate replace to="html" />} />
-          <Route path="html" element={<HTML />} />
-          <Route path="css" element={<CSS />} />
-          <Route path="javascript" element={<JavaScript />} />
         </Route>
       </Routes>
     </div>
